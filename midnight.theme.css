@@ -13,41 +13,41 @@
 /* a color picker should show up if you hover over the "hsl(x, y, z)" part */
 :root {
 	/* link color */
-	--link-color: hsl(190, 70%, 60%);
+	--link-color: hsl(315, 70%, 60%);
 	/* main accent color (mentions, folder icons, unread indicators) */
-	--accent-color: hsl(190, 60%, 50%);
+	--accent-color: hsl(305, 69%, 55%);
 	/* darker accent color (background of any accent items with text) */
-	--accent-background: hsl(190, 60%, 40%);
+	--accent-background: hsl(315, 57%, 47%);
 	/* even darker accent color (background of accent buttons when hover) */
-	--accent-background-2: hsl(190, 60%, 30%);
+	--accent-background-2: hsl(299, 59%, 30%);
 	/* even darker accent color (background of accent buttons when clicked) */
-	--accent-background-3: hsl(190, 60%, 20%);
+	--accent-background-3: hsl(287, 61%, 20%);
 	/* background of mention text and messages that mention you */
-	--mention-modifier: hsla(190, 60%, 50%, 0.1);
+	--mention-modifier: hsla(319, 60%, 50%, 0.1);
 	/* background of messages that mention you on hover */
-	--mention-hover-modifier: hsla(190, 60%, 50%, 0.05);
+	--mention-hover-modifier: hsla(310, 60%, 50%, 0.05);
 	/* bright text for colored buttons */
-	--bright-text: hsl(220, 40%, 90%);
+	--bright-text: hsl(300, 41%, 90%);
 	/* header text for headers and certain text */
-	--header-text: hsl(220, 30%, 70%);
+	--header-text: hsl(303, 29%, 70%);
 	/* main text color (messages, titles, unread text/indicators) */
-	--primary-text: hsl(220, 15%, 60%);
+	--primary-text: hsla(0, 0%, 100%, 0.812);
 	/* secondary text color (channels, descriptions, buttons) */
-	--secondary-text: hsl(220, 15%, 40%);
+	--secondary-text: hsl(219, 9%, 48%);
 	/* muted text color (input box placeholders, muted channels, message times) */
 	--muted-text: hsl(220, 15%, 24%);
 	/* background of muted colored buttons on hover */
-	--muted-background-hover: hsl(220, 15%, 20%);
+	--muted-background-hover: hsl(323, 16%, 20%);
 	/* background of muted colored buttons on click */
-	--muted-background-active: hsl(220, 15%, 16%);
+	--muted-background-active: hsl(325, 15%, 16%);
 	/* background of pretty much everything not using primary background */
-	--secondary-background: hsl(220, 15%, 13%);
+	--secondary-background: hsl(288, 15%, 13%);
 	/* main chat/channel list/member list background */
-	--primary-background: hsl(220, 15%, 10%);
+	--primary-background: hsl(300, 14%, 10%);
 	/* overlay background on stuff when hovered over */
-	--hover-modifier: hsl(230, 20%, 40%, 0.1);
+	--hover-modifier: rgba(122, 82, 115, 0.1);
 	/* overlay background on stuff when clicked or selected */
-	--active-modifier: hsl(220, 20%, 40%, 0.2);
+	--active-modifier: rgba(120, 82, 122, 0.2);
 	/* overlay background on messages when hovered over */
 	--message-hover-modifier: hsl(220, 0%, 0%, 0.1);
 	/* radius of round corners */
